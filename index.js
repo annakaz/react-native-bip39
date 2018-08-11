@@ -17,7 +17,7 @@ function mnemonicToSeed(mnemonic, numIterations) {
 
 function mnemonicToSeedHex(mnemonic, numIterations) {
   var seed = mnemonicToSeed(mnemonic, numIterations)
-  return seed.toString('hex')
+  return seed.toString()
 }
 
 function mnemonicToEntropy(mnemonic, wordlist) {
